@@ -12,3 +12,6 @@ def test_multiply():
 
 def test_divide():
     assert calc.divide(2,2) == 1
+
+def test_fail():
+    assert calc.divide(2,0) == 0
